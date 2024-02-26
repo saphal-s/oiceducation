@@ -1,0 +1,81 @@
+.form_section {
+  background-color: #000;
+  position: relative;
+}
+
+.form_section .overlay {
+  height: 85vh;
+  width: 100%;
+  background: url("../../public/images/cover.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+.form_section .container {
+  max-width: 450px;
+  padding: 30px;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  background-color: #02335b;
+  color: #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 10px;
+}
+.form_section h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.form_section .form_label {
+  margin: 15px 0;
+}
+.form_section input {
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: #02335b;
+  color: #fff;
+  outline: none;
+}
+.form_section button {
+  border: none;
+  outline: none;
+  padding: 8px 25px;
+  font-size: 19px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.form_section input::placeholder {
+  color: #ccc;
+}
+.form_section p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.form_section p a {
+  color: #fff;
+}
+.form_section span {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+}
+.password_label {
+  position: relative;
+}
+
+.form_section i {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+.fa-eye-slash {
+  display: none;
+}

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* topbar styling start */
+.link {
+  color: #024b86;
+  text-decoration: none;
+}
+/* course highlights styling start  */
+.course_highlights {
+  position: relative;
+  top: -50px;
+}
+.course_highlights .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.course_card {
+  width: 325px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.course_card h4 {
+  background-color: #02335b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+.course_card p {
+  padding: 15px;
+}
+.course_card button {
+  border: none;
+  margin: 5px 15px 15px 15px;
+  padding: 5px 10px;
+  background-color: #02335b;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* course highlights styling end  */
+/* popular course styling start */
+.popular_course {
+  padding: 0px;
+  margin-top: -30px;
+}
+.popular_course .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.head {
+  text-align: center;
+  padding: 30px;
+}
+.head h2 {
+  font-size: 40px;
+  color: #02335b;
+}
+.head h2::before {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #024b86;
+  display: block;
+  margin: 20px auto;
+}
+
+.popular_course .course_card img {
+  width: 100%;
+  height: 200px;
+}
+.popular_course .course_card h5 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+.popular_course .course_card p {
+  font-style: italic;
+  margin-top: -20px;
+}
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dde5ec;
+  padding-left: 20px;
+}
+.author .author_image {
+  margin-top: 5px;
+}
+.author .author_image img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.author_name .name {
+  font-size: 17px;
+  font-weight: 550;
+  margin-bottom: -20px;
+}
+.author_name .name span {
+  color: #767f80;
+}
+.price {
+  background-color: #024b86;
+  color: #fff;
+  padding-top: 20px;
+}
+.price p {
+  font-size: 20px;
+  font-weight: 550;
+}
+/* popular course styling end */
+/* mid section stying start */
+.mid_section {
+  background-color: #02335b;
+  color: #fff;
+  padding: 100px;
+  margin-top: 70px;
+}
+.mid_section .container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.mid_section .button button {
+  border: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.mid_section .button button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+/* mid section stying end */
+/* testimonial section styling start */
+.testimonial_section {
+  text-align: center;
+  background: url("../public/images/back.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px 0 30px 0;
+  color: #fff;
+}
+.testimonial_section h2 {
+  color: #fff;
+}
+.testimonial_section h2::before {
+  background-color: #fff;
+}
+.testimonial_card .testi_image img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.testimonial_card p {
+  font-size: 20px;
+  padding: 20px;
+  font-style: italic;
+}
+.testimonial_card p i {
+  font-size: 35px;
+}
+.name_and_position h4 {
+  font-size: 27px;
+  padding-top: 15px;
+}
+/* testimonial section styling end */
